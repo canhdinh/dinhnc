@@ -1,0 +1,28 @@
+* { line-height: 1.8; }
+body { font-family: 'Open Sans', sans-serif; }
+ul { list-style: none; }
+
+#avatar {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 800px) {
+  #intro-name {
+    text-align: center;
+    margin-bottom: 3rem!important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  h1 { font-size: 32px; }
+  h3 { font-size: 24px; }
+  h4 { font-size: 20px; }
+
+  #intro-name {
+    text-align: center;
+    margin-bottom: 3rem!important;
+  }
+
+}
